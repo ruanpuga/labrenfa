@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>LABRENFA HOUSE SHOP</title>
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
 </head>
+
 <body>
     <div class="models">
         <div class="prod-item">
@@ -29,16 +34,16 @@
         </div>
     </div>
     <header>
-        <div class="menu-openner"><span>0</span>🛒</div>
+        <div class="menu-openner"><span>0</span><i class="fas fa-shopping-cart"></i></div>
     </header>
     <main>
-        <h1>LABRENFA SHOP</h1>
+        <img src="images/header.png" class="header-labrenfa">
         <div class="prod-area"></div>
     </main>
     <aside>
         <div class="cart--area">
             <div class="menu-closer">❌</div>
-            <h1>🛒 Seu Carrinho</h1>
+            <h1><i class="fas fa-shopping-cart"></i> Seu Carrinho</h1>
             <div class="cart"></div>
             <div class="cart--details">
                 <div class="cart--totalitem subtotal">
@@ -46,14 +51,20 @@
                     <span>R$ --</span>
                 </div>
                 <div class="cart--totalitem desconto">
-                    <span>Desconto (-10%)</span>
+                    <span><i class="fas fa-gift"></i> Desconto (-10%)</span>
                     <span>R$ --</span>
                 </div>
                 <div class="cart--totalitem total big">
                     <span>Total</span>
                     <span>R$ --</span>
                 </div>
-                <div class="cart--finalizar">Finalizar a compra</div>
+                <div class="buy">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    <span>COMPRAR AGORA!</span>
+                    <div class="download">
+                        <i class="fas fa-shipping-fast" aria-hidden="true"></i> OBRIGADO
+                    </div>
+                </div>
             </div>
         </div>
     </aside>
@@ -90,8 +101,13 @@
             </div>
         </div>
     </div>
-
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous"></script>
     <script type="text/javascript" src="product.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="btn-buy.js"></script>
 </body>
+
 </html>
