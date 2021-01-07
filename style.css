@@ -50,7 +50,6 @@ header {
 aside {
     background-color:#000;
     width:0vw;
-    font-family:'Franklin Gothic';
     transition:all ease .2s;
     overflow-x:hidden;
     color:#fff;
@@ -69,7 +68,7 @@ main {
     
 }
 h1 {
-    font-family:'Franklin Gothic'; 
+   
 }
 .prod-area {
     display:grid;
@@ -82,7 +81,6 @@ h1 {
 .prod-item {
     text-align: center;
     max-width:250px;
-    font-family:'Hepta Slab', Helvetica, Arial;
     margin:0 auto 50px auto;
 }
 .prod-item a {
@@ -124,7 +122,6 @@ h1 {
     margin-top:5px;
 }
 .prod-item--name {
-    font-family: 'Franklin Gothic';
     font-size:20px;
     font-weight: bold;
     color:#000;
@@ -175,7 +172,6 @@ h1 {
 }
 .prodInfo {
     flex:1;
-    font-family:'Hepta Slab', Helvetica, Arial;
     padding-bottom:50px;
 }
 .prodInfo h1 {
@@ -185,7 +181,7 @@ h1 {
     font-size:15px;
     color:rgb(78, 76, 76);
     margin-top:10px;
-    font-family:'Lato',Helvetica,Arial;
+    
 }
 .prodInfo--sector {
     color:rgba(43, 41, 41, 0.897);
@@ -196,7 +192,7 @@ h1 {
 }
 .prodInfo--sizes {
     display:inline-flex;
-    border-radius:10px;
+    border-radius:5x;
     overflow:hidden;
 }
 .prodInfo--size {
@@ -233,7 +229,7 @@ h1 {
 .prodInfo--qtarea {
     display:inline-flex;
     background-color:#EEE;
-    border-radius:10px;
+    border-radius:5px;
     height:30px;
 }
 .prodInfo--qtarea button {
@@ -255,7 +251,7 @@ h1 {
 .prodInfo--addButton {
     margin-top:30px;
     padding:20px 30px;
-    border-radius:20px;
+    border-radius:5px;
     background-color:#32a345;
     color:#FFF;
     display:inline-block;
